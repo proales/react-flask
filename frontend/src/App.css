@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.card {
+  /* padding: 2em; */
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  height: 40px;
+}
+
+img {
+  height: 68px;
+}
+
+textarea {
+  font-size: 18px;
+}
+
+.read-the-docs {
+  color: #888;
+  max-width: 40rem;
+  margin: auto;
+  white-space: pre-wrap;
+}

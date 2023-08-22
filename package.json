@@ -1,0 +1,15 @@
+{
+  "name": "react-flask-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run frontend && npm run backend",
+    "dev": "rm -rf frontend/dist && concurrently 'npm run frontend:dev' 'npm run backend'",
+    "frontend": "cd frontend && npm run build",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend": "cd backend && python3 main.py"
+  },
+  "dependencies": {
+    "concurrently": "^8.1.0"
+  }
+}
