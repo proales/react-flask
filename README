@@ -1,0 +1,10 @@
+Hi there,
+Here is the github 👉 https://github.com/SomveerKr/react-flask
+Clone it, then follow below procedures
+1. cd to frontend and run npm install
+2. cd to backend then run pip install flask openai
+3. Then run the app using npm start from the root directory
+
+SomveerKr
+Also, by default this code space will be live for 30m, if you want to extend that, follow these steps👇
+https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-timeout-period-for-github-codespaces
